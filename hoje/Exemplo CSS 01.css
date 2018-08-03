@@ -1,0 +1,32 @@
+.botao:hover{
+			background-color: rgb(13,60,135);
+			color: #EACE21;
+			text-transform: uppercase;
+		}
+		.botao{
+			display: block;
+			background-color: #EACE21;
+			color: #FFFFFF;
+			font-weight: bold;
+			width: 200px;
+			height: 40px;
+			text-decoration: none;
+			text-align: center;
+			border-radius: 20px;
+
+			border-color: deeppink;
+			border-width: 1px;
+			border-style: solid;
+			border-top-color: silver;
+			border-bottom-color: silver;
+			/*border: 1px solid black;*/
+		}
+		.imagem{
+			background-image: url("panda.jpg");
+			height: 500px;
+			background-repeat: no-repeat;
+			background-position: center;
+		}
+		.campo-texto{
+			background-color: #949494;
+		}

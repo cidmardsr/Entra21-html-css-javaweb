@@ -1,0 +1,2 @@
+// Request  -> Requisição: é o que chega para o servidor; É o cliente quem requisita.
+// Response -> Resposta: é o que é retornado para o cliente. É o server quem responde.

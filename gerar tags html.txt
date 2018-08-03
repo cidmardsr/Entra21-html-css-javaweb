@@ -1,0 +1,2 @@
+div>table.tabela-estilizada>(thead>tr>th*5)+(tbody>tr*4>td*5)+(tfoot>tr>th*5)
+a{Não Clique Aqui}

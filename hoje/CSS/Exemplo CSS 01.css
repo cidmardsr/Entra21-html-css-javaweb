@@ -1,0 +1,41 @@
+.botao:hover{
+			background-color: rgb(13,60,135);
+			color: #EACE21;
+			text-transform: uppercase;
+		}
+		.botao{
+			display: block;
+			background-color: #EACE21;
+			color: #FFFFFF;
+			font-weight: bold;
+			width: 200px;
+			height: 40px;
+			text-decoration: none;
+			text-align: center;
+			margin-bottom:1px;
+			border-radius: 20px;
+
+			border-color: deeppink;
+			border-width: 1px;
+			border-style: solid;
+			border-top-color: silver;
+			border-bottom-color: silver;
+			/*border: 1px solid black;*/
+		}
+		.imagem{
+			background-image: url("../imagens/panda.jpg");
+			background-size: 430px;
+			height: 500px;
+			background-repeat: no-repeat;
+			background-position: top-right;
+
+		}
+		.campo-texto{
+			border: 0;
+			border-bottom: 1px solid red;
+		}
+
+		.campo-texto:focus{
+			outline: none;
+			border-bottom: 1px solid yellow;
+		}
