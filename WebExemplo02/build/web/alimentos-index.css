@@ -19,7 +19,7 @@ table thead tr, table tfoot tr{
 }
 
 table tbody tr{
-    color: white;
+    color: menutext;
     font-size: 19px;
     font-family: sans-serif;
     height: 25px;

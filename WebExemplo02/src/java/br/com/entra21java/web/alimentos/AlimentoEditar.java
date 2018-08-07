@@ -25,13 +25,13 @@ public class AlimentoEditar extends HttpServlet{
         
         
         PrintWriter out = resp.getWriter();
-        out.print ("<!DOCTYPE html>");
+    out.print ("<!DOCTYPE html>");
     out.print ("<html>");
     out.print ("<head>");
     out.print ("<title>Alimentos - Editar</title>");
     out.print ("</head>");
     out.print ("<body>");
-    out.print ("<form action='/alimentos/update' method='post'>");
+    out.print ("<form action='/WebExemplo02/alimentos/update' method='post'>");
     out.print ("<input type='hidden' name='id' value='" + alimento.getId() + "'>");
     out.print ("<div>");
     out.print ("<label for='campo-nome'>Nome</label>");
@@ -47,7 +47,7 @@ public class AlimentoEditar extends HttpServlet{
     out.print ("</div>");
     out.print ("<div>");
     out.print ("<label for='campo-descricao'>Descrição</label>");
-    out.print ("<textarea id='campo-descricao' name='descricao' value='" + alimento.getDescricao() +"'></textarea>");
+    out.print ("<textarea id='campo-descricao' name='descricao'>" + alimento.getDescricao() +"</textarea>");
     out.print ("</div>");
     out.print ("<input type='submit' value='Alterar'>");
     out.print ("</form>");
