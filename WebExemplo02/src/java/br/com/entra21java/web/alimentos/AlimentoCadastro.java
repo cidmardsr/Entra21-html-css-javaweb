@@ -25,20 +25,23 @@ public class AlimentoCadastro extends HttpServlet{
     out.println("<head>");
     out.println("<title>Alimentos - Cadastro</title>");
     out.println("<link rel='stylesheet' type='text/css' href='/WebExemplo02/bootstrap/css/bootstrap.css'>");
+    out.println("<script src='/WebExemplo02/alimentos-cadastro.js'></script>");
     out.println("</head>");
     out.println("<body>");
     
     out.println("<div class='container-fluid'>");
     out.println("");
     
-    out.println("<form action='/WebExemplo02/alimentos/store' method='post'>");
-    out.println("<div class='fomr-group'>");
+    out.println("<form action='/WebExemplo02/alimentos/store' method='post' onsubmit='validarFormulario()'>");
+    out.println("<div id='div-campo-nome' class='fomr-group'>");
     out.println("<label for='campo-nome'>Nome <span class='text-danger font-weight-bold'>*</span></label>");
-    out.println("<input type='text' class='form-control' id='campo-nome' name='nome' required='required'>");
+    out.println("<input type='text' class='form-control' id='campo-nome' name='nome' required='required' "
+            + "onfocusout='validarCampoNome()'>");
     out.println("</div>");
-    out.println("<div class='form-group'>");
+    out.println("<div id='div-campo-quantidade' class='form-group'>");
     out.println("<label for='campo-quantidade'>Quantidade <span class='text-danger font-weight-bold'>*</span></label>");
-    out.println("<input type='text' id='campo-quantidade' name='quantidade' required='required'>");
+    out.println("<input type='number' id='campo-quantidade' name='quantidade' required='required' "
+            + "onfocusout='validarCampoQuantidade()'>");
     out.println("</div>");
     out.println("<div class='form-group'>");
     out.println("<label for='campo-preco'>Preço <span class='text-danger font-weight-bold'>*</span></label>");
