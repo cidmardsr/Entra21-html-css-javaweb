@@ -35,7 +35,7 @@ public class AlimentoEditar extends HttpServlet{
     out.print ("<input type='hidden' name='id' value='" + alimento.getId() + "'>");
     out.print ("<div>");
     out.print ("<label for='campo-nome'>Nome</label>");
-    out.print ("<input type='text' id='campo-nome'" +  "name='nome' value='" + alimento.getNome() +"'>");
+    out.print ("<input type='text' id='campo-nome' name='nome' value='" + alimento.getNome() +"'>");
     out.print ("</div>");
     out.print ("<div>");
     out.print ("<label for='campo-quantidade'>Quantidade</label>");

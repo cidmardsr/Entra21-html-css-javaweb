@@ -15,4 +15,4 @@ CREATE TABLE alunos(
 
 INSERT INTO alunos(nome, codigo_da_matricula, nota_1, nota_2, nota_3, frequencia)
 
-VALUES();
+VALUES("Joao", "1", 5.7, 7, 4, 12);

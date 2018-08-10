@@ -3,7 +3,6 @@ package br.com.entra21java.web.alimentos;
 import br.com.entra21java.bean.AlimentoBean;
 import br.com.entra21java.dao.AlimentoDAO;
 import java.io.IOException;
-import java.io.PrintWriter;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
