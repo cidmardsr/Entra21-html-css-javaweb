@@ -7,7 +7,7 @@ import java.sql.DriverManager;
  * @author Alunos
  */
 public class Conexao {
-    private static final String HOST = "jdbm:mysql://localhost/exercicio_web_00";
+    private static final String HOST = "jdbc:mysql://localhost/exercicio_web_00";
     private static final String USER = "root";
     private static final String PASSWORD = "";
     private static final String CLASS = "com.mysql.jdbc.Driver";

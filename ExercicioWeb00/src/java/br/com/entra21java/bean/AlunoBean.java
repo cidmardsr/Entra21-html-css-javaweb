@@ -7,7 +7,7 @@ public class AlunoBean {
     private int id;
     private String nome;
     private String codigo_da_matricula;
-    private float nota_1, nota_2, nota_3;
+    private float nota_1, nota_2, nota_3, media;
     private byte frequencia;
 
     public int getId() {
@@ -65,5 +65,8 @@ public class AlunoBean {
     public void setFrequencia(byte frequencia) {
         this.frequencia = frequencia;
     }
+
+  
+    
     
 }
